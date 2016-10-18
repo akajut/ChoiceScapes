@@ -1,0 +1,109 @@
+---
+layout: page
+title: Choice Scapes
+permalink: /
+---
+
+<div class="row" id="info">
+  <div class="col-sm-4">
+    <h2>Services</h2>
+    <ul style="padding-left:4em;">
+      <li>Irrigation</li>
+      <li>Drainage</li>
+      <li>Night Lighting</li>
+      <li>Water Features</li>
+      <li>Retaining Walls</li>
+      <li>Walk Ways</li>
+      <li>Patios</li>
+    </ul>
+  </div>
+  <div class="col-sm-4">
+    <h2>Contact</h2>
+    <div  style="text-align: center;">
+      <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+    <p>
+      7420 E Whilshire Blvd<br />
+      Oklahoma City, OK 73141
+    </p>
+      <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+    <p>
+      (405) 615-5221
+    </p>
+      <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+    <p>
+      email@email.com
+    </p>
+
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <h2>Social Media</h2>
+    <div  style="text-align: center;">
+      <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i><br />
+      <a href="https://www.facebook.com/Choice-Scapes-1728263017453769/">
+        See us on Facebook!
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-sm-12">
+    <h2>Gallery</h2>
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    </div>
+
+    <div id="links" style="margin: 25px;">
+    <a href="http://placehold.it/1000x1000/009/fff?text=Pic+of+water+feature" title="Water Feature">
+        <img src="http://placehold.it/250x250/009/fff?text=Click+Me" alt="thumbnail">
+    </a>
+    <a href="http://placehold.it/1000x600/eee/000?text=Pic+of+irrigation" title="Irrigation">
+        <img src="http://placehold.it/250x250/eee/000?text=Click+Me" alt="thumbnail">
+    </a>
+    <a href="http://placehold.it/600x1000/cc3/000?text=Pic+of+lighting" title="Lighting">
+        <img src="http://placehold.it/250x250/cc3/000?text=Click+Me" alt="thumbnail">
+    </a>
+    <a href="http://placehold.it/1000x1000/630/fff?text=Pic+of+retaining+wall" title="Retaining Wall">
+        <img src="http://placehold.it/250x250/630/fff?text=Click+Me" alt="thumbnail">
+    </a>
+    <a href="http://placehold.it/1000x1000/666/fff?text=Pic+of+patio" title="Patio">
+        <img src="http://placehold.it/250x250/666/fff?text=Click+Me" alt="thumbnail">
+    </a>
+    <a href="http://placehold.it/1000x1000/669/fff?text=Pic+of+walk+way" title="Walk Way">
+        <img src="http://placehold.it/250x250/669/fff?text=Click+Me" alt="thumbnail">
+    </a>
+    <a href="http://placehold.it/1000x1000?text=Pic+of+patio" title="Patio">
+        <img src="http://placehold.it/250x250?text=Click+Me" alt="thumbnail">
+    </a>
+    <a href="http://placehold.it/1000x1000?text=Pic+of+miscellaneous" title="Miscellaneous">
+        <img src="http://placehold.it/250x250?text=Click+Me" alt="thumbnail">
+    </a>
+    <a href="http://placehold.it/1000x1000?text=Pic+of+miscellaneous" title="Miscellaneous">
+        <img src="http://placehold.it/250x250?text=Click+Me" alt="thumbnail">
+    </a>
+    <a href="http://placehold.it/1000x1000?text=Pic+of+miscellaneous" title="Miscellaneous">
+        <img src="http://placehold.it/250x250?text=Click+Me" alt="thumbnail">
+    </a>
+    </div>
+  </div>
+</div>
+
+<script src="/js/blueimp-gallery.min.js"></script>
+<script>
+document.getElementById('links').onclick = function (event) {
+event = event || window.event;
+var target = event.target || event.srcElement,
+link = target.src ? target.parentNode : target,
+options = {index: link, event: event},
+links = this.getElementsByTagName('a');
+blueimp.Gallery(links, options);
+};
+</script>
