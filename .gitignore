@@ -4,3 +4,4 @@ _site/
 .bundle/
 prpros.cfg
 vendor/
+_config.yml
